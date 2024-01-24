@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/setup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: antiquewhite;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color:rgb(50, 190, 190);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+    color: antiquewhite;
+    transition: 0.7s ease;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+nav ul li a{
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(50, 190, 190);
+    transition: 0.4s ease;
+}
+
+.button{
+    background-color: antiquewhite;
+    color:rgb(50, 190, 190);
+    padding: 10px 15px 7px 15px;
+    border-radius: 7px;
+    border: 2px solid antiquewhite;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.05);
+    background-color: rgb(50, 190, 190);
+    color: antiquewhite;
+}
+
+.content{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-30%);
+    color: antiquewhite;
+}
+
+h1, h2, h3, h4{
+    padding-bottom: 15px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.email{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid antiquewhite;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    outline: none;
+}
+
+form .button{
+    color: antiquewhite;
+    background-color: rgb(10, 9, 9);
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 13px 15px 10px 15px;
+    top: 4.25px;
+    right: 4.25px;
+}
+
+form .button:hover{
+    transform: scale(1);
+    background-color: rgb(50, 190, 190);
+    box-shadow: 0px 0px 3px rgb(50, 190, 190), 0px 0px 10px rgb(50, 190, 190);
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background: rgb(21, 20, 20);
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2, h5, p{
+    color: antiquewhite;
+}
+
+.about-text h2{
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.about-text p{
+    color: antiquewhite;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: antiquewhite;
+    color:rgb(50, 190, 190);
+    font-size: 1.3em;
+    padding: 15px 20px 13px 20px;
+    margin-left: 5px;
+    border-radius: 7px;
+    border: 2px solid antiquewhite;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+.services{
+    background-color: rgb(10, 9, 9);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title{
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.75em;
+    margin-bottom: 1.3em;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.card{
+    width: 335px;
+    height: 365px;
+    padding: 20px 35px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    color: rgb(50, 190, 190);
+    font-size: 2.5em;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.card h5{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 1.1em;
+    color: rgb(50, 190, 190);
+    border-color: rgb(10, 9, 9);
+}
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgb(10, 9, 9);
+}
+
+.para p{
+    color: rgb(10, 9, 9);
+    font-size: 1.1em;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+
+.card .button{
+    background-color: rgb(50, 190, 190);
+    color:antiquewhite;
+    font-size: 1.2em;
+    padding: 10px 20px 8px 20px;
+    margin-left: 5px;
+    border-radius: 7px;
+    border: 2px solid antiquewhite;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.card .button:hover{
+    transform: scale(1.1) ;
+    background-color: transparent;
+    color: rgb(10, 9, 9);
+    border: 3px solid rgb(10, 9, 9);
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: rgb(21, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: antiquewhite;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.button2{
+    background-color: antiquewhite;
+    color:rgb(50, 190, 190);
+    font-size: 1.3em;
+    padding: 15px 30px 13px 30px;
+    margin-left: 5px;
+    border-radius: 7px;
+    border: 2px solid antiquewhite;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.button2:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .name{
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .slogan{
+    font-size: 1.1em;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(50, 190, 190);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: antiquewhite;
+    transition: 0.7s ease;
+}
+
+.social a:hover{
+    transform: scale(1.1);
+}
+
+.end{
+    position: absolute;
+    color: rgb(50, 190, 190);
+    bottom: 35px;
+    font-size: 14px;
+}
